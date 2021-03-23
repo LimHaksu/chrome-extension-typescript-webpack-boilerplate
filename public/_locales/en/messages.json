@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "chrome-extension-typescript-webpack-boilerplate"
+    },
+    "appDesc": {
+        "message": "This is chrome extension boilerplate with typescript and webpack "
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "commonjs",
+        "target": "es5",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "outDir": "dist/js",
+        "noEmitOnError": true,
+        "typeRoots": ["node_modules/@types"],
+        "baseUrl": ".",
+        "paths": {
+            "*": ["*", "src/*"]
+        },
+        "allowJs": true,
+        "lib": ["es2015", "dom"]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "typescript-chrome-extension-webpack-boilerplate",
+    "version": "0.1.0",
+    "description": "typescript-chrome-extension-webpack-boilerplate",
+    "repository": "https://github.com/LimHaksu/",
+    "author": "Lim Haksu",
+    "scripts": {
+        "watch": "webpack --config webpack/webpack.dev.js --watch",
+        "build": "webpack --config webpack/webpack.prod.js",
+        "clean": "rimraf dist"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.133",
+        "copy-webpack-plugin": "^8.0.0",
+        "css-loader": "^5.1.2",
+        "file-loader": "^6.2.0",
+        "node-sass": "^5.0.0",
+        "rimraf": "^3.0.2",
+        "sass": "^1.32.8",
+        "sass-loader": "^11.0.1",
+        "style-loader": "^2.0.0",
+        "ts-loader": "^8.0.18",
+        "typescript": "^4.2.3",
+        "webpack": "^5.25.0",
+        "webpack-cli": "^4.5.0",
+        "webpack-merge": "^5.7.3"
+    }
+}
